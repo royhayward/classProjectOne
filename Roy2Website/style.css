@@ -15,7 +15,7 @@ header h1, .header_img img{
 .nav_bar{
     width: 100%;
     height: 90px;
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
 .nav_button{
     float:left;
@@ -37,6 +37,27 @@ header h1, .header_img img{
 background-color: #3e8e41;
 box-shadow: 0 5px #666;
 transform: translateY(4px);
+}
+
+.gmimg, .gm_home_body{
+    float: left;
+    padding: 5px;
+    border: solid 1px black;
+    border-radius: 15px;
+}
+.gm_home_body img{
+    width: 500px;
+    height: 375px;
+}
+.gmimg img{
+    height: 345px;
+}
+
+div.review{
+    height: 395px;
+}
+div.review div{
+    margin-left: 10px;
 }
 
 
